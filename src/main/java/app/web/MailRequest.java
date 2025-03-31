@@ -11,7 +11,7 @@ public class MailRequest {
 
     @NotBlank
     @Email
-    private String recipient;// Имейл на получателя
+    private String recipient;
 
     @NotBlank
     private String subject;
